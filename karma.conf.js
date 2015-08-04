@@ -64,7 +64,11 @@ module.exports = function(config) {
     singleRun: false,
 
     webpack: {
-        noInfo: true
+        module: {
+            loaders: [
+                {test: /\.js$/, loader: 'babel?stage=0', exclude: /node_modules/}
+            ]
+        }
     },
 
     webpackMiddleware: {
