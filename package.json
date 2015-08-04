@@ -1,6 +1,6 @@
 {
   "name": "mit-algorithms",
-  "version": "0.0.1",
+  "version": "0.4.1",
   "description": "Working through the book MIT Introduction to Algorithms 3rd Edition.",
   "main": "index.js",
   "scripts": {
