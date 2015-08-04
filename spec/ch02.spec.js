@@ -1,6 +1,6 @@
 describe("Sort tests", function () {
     var u = require('../utils');
-    var methods = require('../ch02');
+    var methods = require('../src').ch02;
     var N, A, B;
 
     beforeEach(function () {
